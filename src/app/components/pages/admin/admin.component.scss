@@ -1,0 +1,42 @@
+.container-menu {
+    display: flex;
+    height: 100vh;
+}
+
+.nav-menu {
+    width: 100%;
+}
+
+.container-page {
+    display: block;
+    position: absolute;
+    height: 90vh;
+    margin-top: 10vh;
+    width: 87%;
+    margin-left: 13%;
+    transition: all .5s ease;
+    overflow: auto;
+}
+
+.container-page-full {
+    transition: all 0.5s ease;
+    width: 95%;
+    margin: 0;
+    margin-left: 5%;
+    margin-top: 10vh;
+}
+
+.responsive {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 767px) {
+    .container-page {
+        margin-top: 15vh;
+        margin-left: 0em;
+        transition: all .5s ease;
+        width: 100%;
+        overflow-y: auto;
+    }
+}
